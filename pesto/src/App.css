@@ -1,0 +1,51 @@
+/* // src/App.scss */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    input, textarea, select {
+      margin-bottom: 10px;
+    }
+  }
+
+  select {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .task-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+
+    button {
+      margin-top: 10px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .app {
+     padding: 10px;
+ 
+     form {
+       width: 100%;
+     }
+ 
+     select {
+       width: 100%;
+     }
+  }
+ }
+ 

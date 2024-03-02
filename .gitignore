@@ -1,0 +1,15 @@
+# Ignore node_modules directory
+node_modules/
+
+backend/node_modules/
+
+pesto/node_modules/
+
+# Ignore all .log files
+*.log
+
+# Ignore all files in the logs directory
+logs/
+
+# Ignore specific file
+config.json
